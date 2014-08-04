@@ -1,0 +1,289 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TeaLinuxOS Tour</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/main.css">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#preloader').fadeOut(300, function() {
+            $(this).remove();
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div id="preloader">
+        <img id="spinner" src="bootstrap/img/plymouth-tea.gif" alt="" />
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <div class="logo">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <img class="img-responsive center-block" src="bootstrap/img/tea.png" height="150" width="67" alt="">
+                </a>
+                <ul class="dropdown-menu menu" role="menu">
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-accessories.png" height="16" width="16" alt="">Accessories</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-education.png" height="16" width="16" alt="">Education</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-graphics.png" height="16" width="16" alt="">Graphics</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-internet.png" height="16" width="16" alt="">Internet</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-office.png" height="16" width="16" alt="">Office</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-development.png" height="16" width="16" alt="">Programming</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-multimedia.png" height="16" width="16" alt="">Sound & Video</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/applications-system.png" height="16" width="16" alt="">System Tools</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/preferences-desktop.png" height="16" width="16" alt="">Preferences</a>
+                        <ul class="dropdown-menu menu">
+                            <li>
+                                <a href="#">
+                                    <img class="iconmenu" src="bootstrap/img/menu/accessories-text-editor.png" height="16" width="16" alt="">Gedit</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a style="padding-left: 33px;" href="#">Run</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="#">
+                            <img class="iconmenu" src="bootstrap/img/menu/system-log-out.png" height="16" width="16" alt="">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- iconpanel -->
+        <div class="iconpanel navbar-right">
+            <ul class="nav navbar-nav">
+                <!-- volume -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img class="img-responsive center-block" src="bootstrap/img/audio-volume-high-panel.png" height="24" width="24" alt="">
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Mute</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- battery -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img class="img-responsive center-block" src="bootstrap/img/battery-full.png" height="24" width="24" alt="">
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Power Settings</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- notifications -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img class="img-responsive center-block" src="bootstrap/img/indicator-messages.png" height="24" width="24" alt="">
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">No notifications</li>
+                    </ul>
+                </li>
+                <!-- wifi -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <img class="img-responsive center-block" src="bootstrap/img/nm-signal-100.png" height="24" width="24" alt="">
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">Wired Networks</li>
+                        <li class="dropdown-header">disconnected</li>
+                        <li class="divider"></li>
+                        <li><a href="#">Wireless Networks</a>
+                        </li>
+                        <li><a href="#">connected</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#">VPN Connections</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#">Enable Networking</a>
+                        </li>
+                        <li><a href="#">Enable Wireless</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#">Connection Information</a>
+                        </li>
+                        <li><a href="#">Edit Connections...</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- time and date -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:5px;">
+                        <b>19.00</b>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Time and Date Settings</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#logout">
+                        <img class="img-responsive center-block" src="bootstrap/img/system-devices-panel.png" height="24" width="24" alt="">
+                    </a>
+                    <div id="logout" class="modal fade" tabindex="-1" role="dialog" arialabelledby="logout" aria="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body text-center">
+                                    <img class="img-responsive center-block" src="bootstrap/img/1310-logout-banner.png" height="125" width="352" alt="">
+                                    <br>
+                                    <h4>Logout TeaLinuxOS Session ?</h4>
+                                    <br>
+                                    <button type="button" class="btn btn-default btn-block" id="dukungan">Shutdown</button>
+                                    <br>
+                                    <button type="button" class="btn btn-default btn-block" id="dukungan">Restart</button>
+                                    <br>
+                                    <button type="button" class="btn btn-default btn-block" id="dukungan">Hibernate</button>
+                                    <br>
+                                    <button type="button" class="btn btn-default btn-block" id="dukungan">Logout</button>
+                                    <br>
+                                    <button type="button" data-dismiss="modal" aria-hidden="true" class="btn btn-default btn-block" id="dukungan">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- bottom panel -->
+
+    <nav class="navbar navbar-fixed-bottom" role="navigation">
+        <!-- plank  -->
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8">
+                <div class="col-xs-2 plank">
+                    <a href="">
+                        <img class="img-responsive center-block" src="bootstrap/img/apps/utilities-terminal.png" height="48" width="48" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-2 plank">
+                    <a href="">
+                        <img class="img-responsive center-block" src="bootstrap/img/apps/firefox.png" height="48" width="48" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-2 plank">
+                    <a href="">
+                        <img class="img-responsive center-block" src="bootstrap/img/apps/system-file-manager.png" height="48" width="48" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-2 plank">
+                    <a href="">
+                        <img class="img-responsive center-block" src="bootstrap/img/apps/pidgin.png" height="48" width="48" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-2 plank">
+                    <a href="">
+                        <img class="img-responsive center-block" src="bootstrap/img/apps/audacious.png" height="48" width="48" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-2 plank">
+                    <a href="">
+                        <img class="img-responsive center-block" src="bootstrap/img/apps/accessories-text-editor.png" height="48" width="48" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-2"></div>
+        </div>
+        <div class="col-xs-4"></div>
+    </nav>
+
+    <!-- javascript -->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery-1.10.2.js"></script>
+</body>
+
+</html>

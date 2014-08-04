@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,600);
+ body {
+    font-family: Raleway, Open Sans, Droid Sans;
+    height: 100%;
+    background-image: url(../img/xoxo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1 h2 h3 h4 h5 {
+    font-family: 'Raleway', cursive;
+}
+h2 {
+    color: #ee3338;
+}
+h5 {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+.navbar-default {
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+.navbar-default .navbar-text {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+    /*    padding-top: 0px;
+    padding-bottom: 0px;*/
+    padding: 3px 6px 0px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #799c48;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #799c48;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ee3338;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #799c48;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+    color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+    color: #fff;
+}
+.navbar-fixed-top .nav {
+    padding: 0px 0;
+}
+.navbar-fixed-top .navbar-brand {
+    padding-bottom: 0px;
+}
+.menu > li > a {
+    padding: 3px 80px 3px 8px;
+}
+.dropdown-menu {
+    border: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    /*background-color: #2d2d2d;*/
+    color: #fff;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 0px;
+}
+.dropdown-submenu:hover .dropdown-menu {
+    display: block;
+}
+.dropup .dropdown-submenu .dropdown-menu {
+    top: auto;
+    bottom: 0;
+    margin-top: 0;
+    margin-bottom: -2px;
+    border-radius: 0px;
+}
+.dropdown-submenu>a:after {
+    display: block;
+    float: right;
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-right: -10px;
+    content: " ";
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0px;
+    border-left-color: #fff
+}
+.dropdown-default .dropdown-submenu>a:after {
+    border-left-color: #434a54;
+}
+.dropdown-submenu:hover a:after {
+    border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    border-radius: 0px;
+}
+#preloader, #spinner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #799c48;
+    z-index: 9999;
+    overflow: hidden;
+}
+.logo {
+    width: 67px;
+    /*height: 40px;*/
+}
+.iconpanel {
+    /*width: 67px;*/
+}
+.plank {
+    padding: 4px 2px;
+}
+.modal-dialog {
+    width: 400px;
+}
+.iconmenu {
+    margin-right: 8px;
+}
